@@ -1,0 +1,133 @@
+header{
+    background-color: #465B75;
+}
+.contenedor-header{
+    max-width: 93.75rem;
+    margin: 0 auto; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.25rem;
+    box-sizing: border-box;
+}
+.marca{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.marca img{
+    width: 6.25rem;
+    height: auto;
+}
+.marca h1{
+    margin: 1rem 0 0 ;
+    color: white;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #808080;
+}
+main{
+    background-color: #DEE9F7;
+    display: flex;
+    align-items: flex-start;
+}
+.lateral{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5rem;
+    border: 1px solid #6A6F75;
+}
+.contenedor-productos{
+    background-color: #ffffff;
+    margin: 2rem 0rem;
+    border: 1px solid #6A6F75;
+    padding: 1rem 1.5rem;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+.filtros{
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 0.5rem;
+}
+
+.op{
+    margin-bottom: 0.5rem;
+    border:none;
+    background-color: #d0d2d4;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.9rem;
+}
+.info h3{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.precio{
+    color: #ff6347;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.info{
+    padding: 1rem;
+    margin: none;
+    width: 23rem;
+}
+
+.info span{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
+
+}
+.info span+p{
+    margin-top: 0.1rem;
+}
+footer{
+    background-color: #333333;
+}
+.final{
+    display: flex;
+    margin: 0rem 10rem;
+}
+.ventana {
+    margin: 1rem 2.5rem;
+    color: #ffffff;
+}
+.ventana a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.ventana span{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.ventana span::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: .2rem;
+    background-color: #ffffff;
+
+}
